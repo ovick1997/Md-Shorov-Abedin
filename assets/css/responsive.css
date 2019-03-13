@@ -1,0 +1,179 @@
+/*	Less Framework 4 with 16/24 type presets
+	by Md Shorov Abedin
+	License: http://all-techstory.blogspot.com	*/
+
+
+
+/*	Resets
+	------	*/
+
+    /*		Default Layout: 992px. 
+            Gutters: 24px.
+            Outer margins: 48px.
+            Leftover space for scrollbars @1024px: 32px.
+   
+
+    
+
+    
+    
+    /*		Tablet Layout: 768px.
+            Gutters: 24px.
+            Outer margins: 28px.
+            Inherits styles from: Default Layout.
+    -----------------------------------------------------------------
+    cols    1     2      3      4      5      6      7      8
+    px      68    160    252    344    436    528    620    712    */
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        
+        .contact-item ul li a {
+            font-size: 14px;
+        }
+        .single-menu ul li {
+            padding: 10px 14px;
+        }
+        .single-menu ul li a {
+            font-size: 16px;
+            
+        }
+        .search-box {
+            display: none;
+        }
+        .slider-content h2 {
+            font-size: 70px;
+            line-height: 72px;
+        }
+        .slider-content a {
+            padding: 16px 22px;
+            font-size: 18px;
+        }
+        .service-item {
+            margin-left: 10px;
+        }
+        .service-ceo {
+            padding: 21px 43px 27px;
+        }
+        .service-ceo h2 {
+            font-size: 18px;
+            line-height: 32px;
+            padding-bottom: 5px;
+        }
+        .service-ceo p {
+            font-size: 13px;
+            line-height: 20px;
+        }
+        .service-ceo strong{
+            font-weight: 700;
+        }
+        .service-ceo-logo img{
+            width: 100%;
+            margin-left: 10px;
+        }
+        .register-area p {
+            font-size: 29px;
+        }
+        .flex-team {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .offer-area {
+            display: block;
+        }
+        .offer-item {
+            margin-bottom: 25px;
+        }
+        .flex-blogspot {
+            display: block;
+        }
+        .blogspot-content p {
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+        .blogspot-item {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .blogspot-item h4 {
+            text-align: center;
+        }
+        .writer {
+            justify-content: center;
+        }
+        .flex-footer-top {
+            display: block;
+        }
+        .footer-item {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .p2 {
+            padding-right: 0px;
+        
+        }
+        .footer-logo {
+            justify-content: center;
+        }
+        .footer-item .p1 {
+            text-align: center;
+            padding-right: 0px;
+        }
+        .footer-social-icon ul {
+            padding-left: 0px;
+            justify-content: center;
+        }
+
+    }
+    
+    
+    @media only screen and (min-width: 768px) and (max-width: 840px){
+        .service-ceo {
+            top: 40px;
+            
+        }
+        @media only screen and (min-width: 768px) and (max-width: 940px){
+
+        }
+    /*		Mobile Layout: 320px.
+            Gutters: 24px.
+            Outer margins: 34px.
+            Inherits styles from: Default Layout.
+    ---------------------------------------------
+    cols    1     2      3
+    px      68    160    252    */
+    
+    @media only screen and (max-width: 767px) {
+        
+        
+    }
+    
+    
+    
+    /*		Wide Mobile Layout: 480px.
+            Gutters: 24px.
+            Outer margins: 22px.
+            Inherits styles from: Default Layout, Mobile Layout.
+    ------------------------------------------------------------
+    cols    1     2      3      4      5
+    px      68    160    252    344    436    */
+    
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        
+        
+    
+    }
+    
+    
+    /*	Retina media query.
+        Overrides styles for devices with a 
+        device-pixel-ratio of 2+, such as iPhone 4.
+    -----------------------------------------------    */
+    
+    @media 
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-device-pixel-ratio: 2) {
+        
+        body {
+        
+    }
